@@ -1,9 +1,9 @@
 @font-face {
   font-family: "IranYekan";
-  src: url("/styles/webfonts/iranyekanweblight.html");
-  src: url("/styles/webfonts/iranyekanweblight.html")
+  src: url("../styles/webfonts/iranyekanweblight.html");
+  src: url("../styles/webfonts/iranyekanweblight.html")
       format("embedded-opentype"),
-    url("/styles/webfonts/iranyekanweblight.woff2") format("woff2");
+    url("../styles/webfonts/iranyekanweblight.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -27,7 +27,7 @@ body {
 .banner {
   width: 100%;
   height: 200px;
-  background: url("/images/chin.png") repeat-x,
+  background: url('../images/chin.png') repeat-x,
     -webkit-gradient(linear, left top, left bottom, from(rgb(255, 212, 1)), to(rgb(255
               235 59 / 84%)));
 
@@ -57,7 +57,7 @@ header {
   left: 0;
   z-index: 3;
   overflow: hidden;
-  background: url("/images/taxi.png") no-repeat,
+  background: url("../images/taxi.png") no-repeat,
     -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(rgba(0, 0, 0, 1)));
   background-size: 125px;
 
@@ -199,27 +199,27 @@ font-weight: 600;
 }
 
 .slide:first-child {
-  background: url("/slider/1.jpg") no-repeat center top/cover;
+  background: url("../slider/1.jpg") no-repeat center top/cover;
 }
 
 .slide:nth-child(2) {
-  background: url("/slider/2.jpg") no-repeat center center/cover;
+  background: url("../slider/2.jpg") no-repeat center center/cover;
 }
 
 .slide:nth-child(3) {
-  background: url("/slider/3.jpg") no-repeat center center/cover;
+  background: url("../slider/3.jpg") no-repeat center center/cover;
 }
 
 .slide:nth-child(4) {
-  background: url("/slider/4.jpg") no-repeat center center/cover;
+  background: url("../slider/4.jpg") no-repeat center center/cover;
 }
 
 .slide:nth-child(5) {
-  background: url("/slider/5.jpg") no-repeat center center/cover;
+  background: url("../slider/5.jpg") no-repeat center center/cover;
 }
 
 .slide:nth-child(6) {
-  background: url("/slider/2.jpg") no-repeat center center/cover;
+  background: url("../slider/2.jpg") no-repeat center center/cover;
 }
 
 .buttons button#prev {
@@ -384,66 +384,66 @@ h3 {
 }
 
 .lw-tab-panel.theme-blue {
-  background-image: url("/slider/1.jpg");
+  background-image: url("../slider/1.jpg");
 }
 
 @media all and (min-width: 40em) {
   .lw-tab-panel.theme-blue {
-    background-image: url("/slider/2.jpg");
+    background-image: url("../slider/2.jpg");
   }
 }
 
 @media all and (min-width: 56.25em) {
   .theme-blue .lw-tab-image {
-    background-image: url("/slider/3.jpg");
+    background-image: url("../slider/3.jpg");
   }
 }
 
 .lw-tab-panel.theme-purple {
-  background-image: url("/slider/4.jpg");
+  background-image: url("../slider/4.jpg");
 }
 
 @media all and (min-width: 40em) {
   .lw-tab-panel.theme-purple {
-    background-image: url("/slider/5.jpg");
+    background-image: url("../slider/5.jpg");
   }
 }
 
 @media all and (min-width: 56.25em) {
   .theme-purple .lw-tab-image {
-    background-image: url("/slider/1.jpg");
+    background-image: url("../slider/1.jpg");
   }
 }
 
 .lw-tab-panel.theme-green {
-  background-image: url("/slider/2.jpg");
+  background-image: url("../slider/2.jpg");
 }
 
 @media all and (min-width: 40em) {
   .lw-tab-panel.theme-green {
-    background-image: url("/slider/3.jpg");
+    background-image: url("../slider/3.jpg");
   }
 }
 
 @media all and (min-width: 56.25em) {
   .theme-green .lw-tab-image {
-    background-image: url("/slider/4.jpg");
+    background-image: url("../slider/4.jpg");
   }
 }
 
 .lw-tab-panel.theme-yellow {
-  background-image: url("/slider/5.jpg");
+  background-image: url("../slider/5.jpg");
 }
 
 @media all and (min-width: 40em) {
   .lw-tab-panel.theme-yellow {
-    background-image: url("/slider/1.jpg");
+    background-image: url("../slider/1.jpg");
   }
 }
 
 @media all and (min-width: 56.25em) {
   .theme-yellow .lw-tab-image {
-    background-image: url("/slider/2.jpg");
+    background-image: url("../slider/2.jpg");
   }
 }
 
@@ -695,11 +695,7 @@ h3 {
 }
 
 @media all and (min-width: 75em) {
-  .lw-tabs {
-    /* margin-left: -50px;
-		margin-right: -50px; */
-  }
-}
+ 
 
 @media all and (min-width: 56.25em) {
   .lw-tab-fixed {
@@ -1179,7 +1175,7 @@ h3 {
   text-shadow: black 1px 1px 6px;
 }
 .card {
-  background: url(/slider/3.jpg);
+  background: url("../slider/3.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -1235,7 +1231,7 @@ h3 {
 
 /* Footer  */
 footer {
-  background: #333 url(../img/pattern.png) repeat 0 0;
+  background: #333 repeat 0 0;
   color: #fff;
   padding: 30px 0 10px 0;
 }
